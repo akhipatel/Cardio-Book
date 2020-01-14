@@ -48,8 +48,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send, R.id.nav_record_pressure,
+                R.id.nav_home, R.id.nav_record_pressure,
                 R.id.nav_view_record)
                 //github Test
                 .setDrawerLayout(drawer)
@@ -65,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
                 int menueID = destination.getId();
                 switch (menueID){
-                    case R.id.nav_gallery:
-                        Toast.makeText(MainActivity.this, "You in Nav Gallery",Toast.LENGTH_LONG).show();
+                    case R.id.nav_view_record:
+                        Toast.makeText(MainActivity.this, "You in Nav View Record",Toast.LENGTH_LONG).show();
                         fab.hide();
                         break;
 
