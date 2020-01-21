@@ -14,11 +14,11 @@
         <menu>
             <item
                 android:id="@+id/nav_record_pressure"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/icons8_heart_monitor_24px"
                 android:title="@string/menu_record_pressure" />
             <item
                 android:id="@+id/nav_view_record"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/ic_assignment_black_24dp"
                 android:title="@string/menu_view_record" />
         </menu>
     </item>
