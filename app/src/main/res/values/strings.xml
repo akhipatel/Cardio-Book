@@ -13,6 +13,6 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
-    <string name="menu_record_pressure">Record Blood Pressure</string>
-    <string name="menu_view_record">View Records</string>
+    <string name="menu_record_pressure">Get Reading</string>
+    <string name="menu_view_record">Blood Pressure History</string>
 </resources>
